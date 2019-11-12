@@ -1,5 +1,5 @@
-{% set version = "0.1.0" %}
-{% set checksum = "1fcd20010c5d688c45e60aff6feeed807b5d1d571e4ca2f74be4507d377e75de" %}
+{% set version = "0.2.1" %}
+{% set checksum = "cd2d58d584c33fd00236b265148ced9a0d7acdf17904954f6e028562d4301174" %}
 
 package:
     name: firelight
