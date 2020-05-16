@@ -10,7 +10,7 @@ source:
     sha256: {{ checksum }}
 
 build:
-    number: 0
+    number: 1
     script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
     noarch: python
 
@@ -22,7 +22,7 @@ requirements:
     run:
         - python >=3.6
         - pyyaml >=3.12
-        - matplotlib
+        - matplotlib-base
         - scikit-learn
         - scikit-image
         - pytorch >=0.4
